@@ -28,7 +28,18 @@
         text-align: center;
         padding: 18px 20px;
         font-size: 40px;
-}
+        text-decoration-color: #F6F4ED;
+
+    }
+    a:link{
+        color:#F1D3B9;
+      }
+
+    a:visited{
+        color:#F1D3B9;
+      }
+
+  
 
     /* Change the color of links on hover */
     .topnav a:hover {
