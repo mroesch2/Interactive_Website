@@ -1,0 +1,106 @@
+
+    /* basic main styling for page */
+    body {
+        background: #F6F4ED;
+        font-family: -apple-system, BlinkMacSystemFont, “Segoe UI”,
+        “Roboto”, “Oxygen”, “Ubuntu”, “Cantarell”,
+        “Fira Sans”, “Droid Sans”, “Helvetica Neue”, sans-serif;
+    }
+        
+    /* Styling for header title */
+    .header {
+        grid-area: header;
+        text-align: center;
+        color: #B46051;
+        padding: 10px;
+    }
+
+    /* Top Navigation Bar styling */
+    .topnav {
+        background: #B46051;
+        overflow: hidden;
+    }
+
+    /* Styling for links on navigation bar */
+    .topnav a {
+        float: right;
+        color: #F6F4ED;
+        text-align: center;
+        padding: 18px 20px;
+        font-size: 40px;
+}
+
+    /* Change the color of links on hover */
+    .topnav a:hover {
+        background-color: #F1D3B9;
+        color: #B46051;
+    }
+
+    
+    .main {
+        /* Uses a flex box for future adaptability */
+        display: flex;
+        color: #B46051;
+    }
+
+    /* Styling for the columns */
+    .column {
+        /* Uses a flex box for future adaptability */
+        flex: 50%;
+        background-color: #F1D3B9;
+        /* for space between columns */
+        margin: 5px;
+        /* creates slightly more space between box and text */
+        padding: 5px;
+    }
+
+    /* Styling for heading sections of resume */
+    .title {
+        font-size: 150%;
+        font-weight: bold;
+        line-height: 20%;
+
+    }
+
+
+    /* Creates vertical space between listed items */
+    li {
+        margin: 10px 0;
+    }
+
+    ul {
+        margin: 5px 0;
+    }
+
+    /* Styling for circle icons*/
+    .fa-circle {
+        margin: 6px;
+        position: static;
+        /*Puts them in alignment */
+        float: right;
+    
+    }
+
+    .TS {
+        background-color: #B46051;
+        color: #F1D3B9;
+        padding: 5px;
+        margin: 2px;
+        display: flex;
+        /* Styling to keep box close around text */
+        width: min-content;
+        /* Adds rounded corners to boxes */
+        border-radius: 10px;
+    }
+
+    .SS {
+        background-color: #B46051;
+        color: #F1D3B9;
+        padding: 5px;
+        margin: 2px;
+        display: flex;
+        /* Styling to keep box close around text */
+        width: min-content;
+        /* Adds rounded corners to boxes */
+        border-radius: 10px;
+    }
