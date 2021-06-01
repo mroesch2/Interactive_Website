@@ -1,14 +1,15 @@
-{% load static %}
-<link rel="stylesheet" href="{% static 'website/styles.css' %}">
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <!-- Using font awesome for languages infographic -->
-    <script src="https://kit.fontawesome.com/be94f5cb11.js" crossorigin="anonymous"></script>
-    <title>Melissa Roesch</title>
-</head>
 
-<body>
-    Test.
-</body>
+ {% block body %}
+ <h1>Results:</h1>
+ <ul>
+     {% for result in results %}
+        <li>{{result.name}} in {{result.language}} language in {{result.classNum}}
+            during {{result.date}}</li>
+           {% endfor %} 
+ </ul>
+ {% endblock %}
+
 </html>
